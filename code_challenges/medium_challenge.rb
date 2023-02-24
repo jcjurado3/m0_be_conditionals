@@ -3,7 +3,7 @@
 # Using the following variables:
 
 
-good_driving_record = true
+good_driving_record = false
 age = 24
 
 
@@ -16,6 +16,6 @@ if good_driving_record == true && age >= 25
     puts "You have received a discount on your car rental!"
 elsif good_driving_record == true || age >= 25
     puts "Sorry, you don't qualify for a discount but your rental quote is now available"
-else good_driving_record == false & age < 25
+else good_driving_record == false && age < 25
     puts "You do not meet the necessary requirements"
 end
